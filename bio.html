@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bio data</title>
+        <style>
+            body{
+                background-color: lavender;
+            }
+            input{
+                
+                background-color: lavender;
+            }
+            textarea{
+                background-color: lavender;
+            }
+            select{
+                background-color: lavender;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form method="post" action="manoj.html"></form>
+        <fieldset>
+            <legend style="text-align: center;"><h1>Bio Data</h1></legend>
+             <h4>Name: <input type="text" name="taxt" id="text" placeholder="Name"  required > ( max 30 character a-z and A-Z) 
+                <input type="file" onchange="readURL" accept="image\*" style="margin-left:900px ;"></h4>
+            <h4>Father Name: <input type="text" name="taxt" id="text" placeholder=" Father Name" required > ( max 30 character a-z and A-Z) </h4>
+            <h4>Mother Name: <input type="text" name="taxt" id="text" placeholder="Mother Name" required > ( max 30 character a-z and A-Z) </h4>
+            <h4>Address: <br> <textarea  type="text" name="text" id="text" rows="5" cols="50"></textarea> </h4>
+            <h4>Contact Number:  <select>
+                <option>+977</option>
+                <option>+123</option>
+                <option>+81</option>
+                <option>+880</option>
+                <option>+973</option>
+                <option>+994</option>
+                <option>+91</option>
+            </select> <input type="tel"  maxlength="10" name="number" id="phon number" placeholder="Phone number" requied> (10 digits number) </h4>
+            <h4>E-mail Address: <input type="email" name="email" id="email" placeholder="E-mail" required></h4>
+            <h4>Date of birth: <input type="date" name="date" id="date" placeholder="mm/dd/yyyy" required ></h4>
+            <h4>Nationality: <input type="text" name="nationality" id="nationality" placeholder="Nationality"></h4>
+            <h4>Gender:  <input type="radio" name="radio" id="radio">Male 
+                         <input type="radio" name="radio" id="radio">Female</h4>
+            <h4>Known Language:  <input type="checkbox"> English 
+                                 <input type="checkbox"> Hindi
+                                 <input type="checkbox"> Nepali</h4>
+            <h4>Hobbies: <select>
+                <option></option>
+                <option>Singing</option>
+                <option>Dancing</option>
+                <option>Yoga</option>
+                <option>Cooking</option>
+                <option>Reading Books</option>
+                <option>Vlogging</option>
+                <option>Hiking</option>
+                <option>Origami</option>   
+            </select></h4>                     
+            <h4>Maritial status: <select>
+                <option></option>
+                <option>Married</option>
+                <option>Unmarried</option>
+                </select></h4>
+            <h4> Education Qualification:</h4> 
+                <table>
+                    <tr>
+                        <th>S.N</th>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>University</th>
+                        <th>passed year</th>
+                        <th>Division</th>
+                    </tr>
+                    <tr>
+                        <td><input type="digit" name="number" id="number" value="1" > </td>
+                        <td><input type="text"  name="degree" id="degree" ></td>
+                        <td><textarea type="text" name="institution" id="instituton" rows="1" cols="50"></textarea></td>
+                        <td><input type="text" name="university" id="university"></td>
+                        <td><input type="month" name="month" id="month"></td>
+                        <td><input type="text" name="Division" id="Division"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="digit" name="number" id="number" value="2"> </td>
+                        <td><input type="text"  name="degree" id="degree" ></td>
+                        <td><textarea type="text" name="institution" id="instituton" rows="1" cols="50"></textarea></td>
+                        <td><input type="text" name="university" id="university"></td>
+                        <td><input type="month" name="month" id="month"></td>
+                        <td><input type="text" name="Division" id="Division"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="digit" name="number" id="number"  value="3"> </td>
+                        <td><input type="text"  name="degree" id="degree" ></td>
+                        <td><textarea type="text" name="institution" id="instituton" rows="1" cols="50"></textarea></td>
+                        <td><input type="text" name="university" id="university"></td>
+                        <td><input type="month" name="month" id="month"></td>
+                        <td><input type="text" name="Division" id="Division"></td>
+                    </tr>
+                </table>
+                <h4>Other Qualification:<br> <textarea type="text" name="other" id="other" rows="5" cols="40"></textarea> </h4> 
+                <h4>Experience:<br> <textarea type="text" name="Experience" id="Experience" rows="2" cols="100"></textarea></h4>
+
+
+             <input type="submit" value="Submit"  style="margin-left: 600px;">
+             <input type="reset" value="Cancle">
+        </fieldset>
+    </body>
+</html>
